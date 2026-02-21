@@ -4,6 +4,7 @@ steps:
     args: ["install"]
   
   - name: "gcr.io/cloud-builders/npm"
+    args: ["test"]
     env:
       - "CI=true" # To ensure Jest runs in CI mode if it has specific CI behavior
 
