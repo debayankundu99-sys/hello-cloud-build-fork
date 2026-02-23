@@ -1,11 +1,9 @@
 steps:
   # Install dependencies and run tests
-  - name: "node:18"
-    entrypoint: "npm" 
+  - name: "gcr.io/cloud-builders/npm" 
     args: ["install"]
   
-  - name: "node:18"
-    entrypoint: "npm"
+  - name: "gcr.io/cloud-builders/npm"
     args: ["test"]
     env:
       - "CI=true" # To ensure Jest runs in CI mode if it has specific CI behavior
