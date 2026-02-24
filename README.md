@@ -140,4 +140,4 @@ This is the recommended approach for continuous integration and deployment. Clou
 
 This setup provides a solid foundation for a CI/CD project on GCP that you can use for your demonstration.
 
-This is done to trigger a build in gcp cloud build -24-02-2026
+Today our build is triggered on the day -24-02-2026
